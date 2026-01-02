@@ -14,7 +14,7 @@ class Aluno:
     def to_dict(self):
         """Converte o aluno para o dicionario(útil para salvar em JSON)"""
         return {
-            'nome': self.nome
-            'idade': self.idade
+            'nome': self.nome,
+            'idade': self.idade,
             'matricula': self.matricula
         }
